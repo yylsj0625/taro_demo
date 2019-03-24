@@ -11,4 +11,4 @@
     豆瓣电影 使用redux管理数据，预告片观看，可以查看电影详情
     使用taro-ui
 # 图片    
-![]
+![](https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(1).png)
