@@ -1,0 +1,24 @@
+//@import "../../component/wxParse/wxParse.wxss";
+.detail_page {
+  View {
+    overflow: inherit;
+  }
+  .detail_title {
+    .avatar_img {
+      width: 100%;
+    }
+    .name {
+      text-align: center;
+      font-weight: bold;
+    }
+    .desc {
+      text-align: center;
+      color: #888;
+      font-size: 24px;
+    }
+    margin-bottom: 30px;
+  }
+}
+.wxParse-inline {
+  line-height: 40px;
+}

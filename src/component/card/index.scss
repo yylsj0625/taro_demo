@@ -1,0 +1,35 @@
+.card {
+  padding: 10px 30rpx;
+  background: #fff;
+  margin-bottom: 10px;
+  .card_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #e3e3e3;
+    .card_img_box {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      .card_img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+      }
+    }
+  }
+  .card_content {
+    font-size: 28px;
+    padding: 20px 0;
+  }
+  .card_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+  }
+}

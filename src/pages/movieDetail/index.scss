@@ -1,0 +1,147 @@
+.detail_wrapper {
+  background: #f4f4f4;
+  .title {
+    font-weight: 700;
+    color: #000;
+    background: #fff;
+    padding: 10px 20px;
+  }
+  .desc_wrapper {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px;
+    color: #666;
+    .desc_content {
+      margin-right: 10px;
+      .rate_box {
+        margin: 10px 0;
+        .rate {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+        .comment {
+          margin-top: 10px;
+        }
+      }
+    }
+    .desc_img {
+      width: 300px;
+      flex: 1;
+      .img {
+        width: 300px;
+        height: 375px;
+      }
+    }
+  }
+  .summary,.tags_box,.movie_people,.trailers_wrapper,.all_photo,.comment_wrapper {
+    background: #fff;
+    padding: 15px;
+    color: #666;
+    .sub_title {
+      margin-bottom: 10px;
+    }
+  }
+  .summary {
+    .content {
+      word-break: break-word;
+      .more {
+        float: right;
+        color: #346FC2;
+        font-size: 32px;
+      }
+    }
+  }
+  .tags_box {
+    .tags_content {
+      padding-left: 20px;
+      .tag {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+      }
+    }
+  }
+  .movie_people {
+    .photo_box {
+      display: flex;
+      text-align: center;
+      .people_photo {
+        width: 320px;
+        padding: 0 10px;
+        .img {
+          width: 300px;
+          height: 375px;
+        }
+      }
+    }
+  }
+  .trailers_wrapper {
+    .video_box {
+      display: flex;
+      .video {
+        width: 620px;
+        background: #fff;
+        padding: 0 10px;
+        video {
+          width: 498px;
+          height: 280px;
+        }
+      }
+    }
+  }
+  .all_photo {
+    .photos_box {
+      display: flex;
+      text-align: center;
+      .photo {
+        width:400px;
+        padding: 0 10px;
+        .img {
+          width: 400px;
+          height: 375px;
+        }
+      }
+    }
+  }
+  .comment_wrapper {
+    .comment_box {
+      .comment_item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        .comment_avatar {
+          width: 60px;
+          height: 60px;
+          image {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+          }
+        }
+        .comment_content {
+          margin-left: 30px;
+          .name {
+            color: #000;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            .rate_num {
+              color: #666;
+            }
+          }
+          .time {
+            font-size: 24px;
+          }
+          .content {
+            margin-top: 10px;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}

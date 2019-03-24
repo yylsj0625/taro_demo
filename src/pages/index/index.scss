@@ -1,0 +1,33 @@
+.list_wrapper {
+  background: #f4f4f4;
+}
+.tab_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #6190e8;
+  color: #fff;
+  font-size: 30px;
+  padding: 1px 0;
+  &.tab_fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  .tab_item {
+    padding: 20px 5px;
+  }
+  .tab_item_active {
+    color: #ff0;
+    border-bottom: 4px solid #ff0;
+  }
+}
+.list_box {
+  position: relative;
+  .activity {
+    width: 200px;
+    height: 200px;
+  }
+}

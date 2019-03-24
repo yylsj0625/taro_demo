@@ -1,0 +1,109 @@
+.movie {
+  background: #f4f4f4;
+  .search_box {
+    background: #346FC2;
+    padding: 10px 0;
+    font-size: 30px;
+    .search {
+      width: 90%;
+      background: rgba(255,255,255, 0.4);
+      text-align: center;
+      line-height: 60px;
+      height: 60px;
+      margin: auto;
+      border-radius: 30px;
+      color: #f5f5f5;
+      .search_key {
+        display: inline-block;
+        margin-left: 5px;
+      }
+    }
+  }
+  .swiper {
+    background: #fff;
+    padding-bottom: 10px;
+    swiper {
+      height: 430px;
+    }
+    .swiper_item_wrapper {
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .swiper_item {
+      height: 420px;
+      display: flex;
+      color: #fff;
+      flex-direction: row;
+      font-size: 26px;
+      background: #346FC2;
+      border-radius: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+      .swiper_left {
+        width: 150px;
+        flex: 1;
+        .left_img {
+          width: 300px;
+          height: 370px;
+        }
+      }
+      .swiper_right {
+         flex: 1;
+        .title {
+          margin-bottom: 20px;
+        }
+      }
+      .author {
+        display: flex;
+        align-items: center;
+        .author_img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+        }
+        .author_name {
+          margin-left: 10px;
+        }
+      }
+      .casts, .collect_count, .rate, .genres {
+        margin-top: 20px;
+      }
+      .rate {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .rate_num {
+          display: inline-block;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .hot, .weekly {
+    background: #fff;
+    margin-top: 10px;
+    .list_title {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      color: #888;
+    }
+    .hot_wrapper {
+      display: flex;
+      text-align: center;
+    }
+  }
+  .weekly {
+    margin-top: 10px;
+    background: #fff;
+    text-align: center;
+    .title {
+      padding: 0 15px;
+    }
+    .weekly_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+}
