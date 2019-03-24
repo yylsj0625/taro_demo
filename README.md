@@ -10,7 +10,8 @@
     cnode社区 自定义tab页切换，查看详情（不包含redux）
     豆瓣电影 使用redux管理数据，预告片观看，可以查看电影详情
     使用taro-ui
-# 图片    
+# 图片   
+<img src="https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(1).png" width="375">
 ![](https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(1).png)
 ![](https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(2).png)
 ![](https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(3).png)
