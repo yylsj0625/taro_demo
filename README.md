@@ -1,5 +1,5 @@
 # taro_demo
-一个基于taro的小程序，包括cnode社区和豆瓣电影（个人开发小demo）
+一个基于taro的小程序，包括cnode社区和豆瓣电影（个人开发小demo）名称：努力的小蜗牛yyl
 # install
     使用 npm install 安装
     npm run dev:weapp 运行在微信端
@@ -10,4 +10,4 @@
     cnode社区 自定义tab页切换，查看详情（不包含redux）
     豆瓣电影 使用redux管理数据，预告片观看，可以查看电影详情
     使用taro-ui
-#图片    
+# 图片    
