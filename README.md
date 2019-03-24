@@ -12,3 +12,11 @@
     使用taro-ui
 # 图片    
 ![](https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(1).png)
+![](https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(2).png)
+![](https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(3).png)
+![](https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(4).png)
+![](https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(5).png)
+![](https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(6).png)
+![](https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(7).png)
+![](https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(8).png)
+![](https://github.com/yylsj0625/taro_demo/blob/master/src/assets/img/img1%20(9).png)
